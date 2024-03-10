@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "real_state_rest_api"
+version = "0.1.0"
+description = ""
+authors = ["Rodrigo Barro <rodrigo.correa.barro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "4.2"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+commitizen = "^3.18.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
