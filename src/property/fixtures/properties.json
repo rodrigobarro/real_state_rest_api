@@ -1,0 +1,68 @@
+[
+    {
+      "model": "property.property",
+      "pk": "11e39f4f-94fc-4aa9-a8a9-012345678901",
+      "fields": {
+        "max_guests": 4,
+        "bathrooms_quantity": 2,
+        "pets_allowed": true,
+        "cleaning_fee": 5000,
+        "activation_date": "2024-03-10",
+        "created_at": "2024-03-10T00:00:00Z",
+        "updated_at": "2024-03-10T00:00:00Z"
+      }
+    },
+    {
+      "model": "property.property",
+      "pk": "22e39f4f-94fc-4aa9-a8a9-012345678902",
+      "fields": {
+        "max_guests": 6,
+        "bathrooms_quantity": 3,
+        "pets_allowed": false,
+        "cleaning_fee": 7000,
+        "activation_date": "2024-03-10",
+        "created_at": "2024-03-10T00:00:00Z",
+        "updated_at": "2024-03-10T00:00:00Z"
+      }
+    },
+    {
+      "model": "property.property",
+      "pk": "33e39f4f-94fc-4aa9-a8a9-012345678903",
+      "fields": {
+        "max_guests": 8,
+        "bathrooms_quantity": 4,
+        "pets_allowed": true,
+        "cleaning_fee": 10000,
+        "activation_date": "2024-03-10",
+        "created_at": "2024-03-10T00:00:00Z",
+        "updated_at": "2024-03-10T00:00:00Z"
+      }
+    },
+    {
+      "model": "property.property",
+      "pk": "44e39f4f-94fc-4aa9-a8a9-012345678904",
+      "fields": {
+        "max_guests": 5,
+        "bathrooms_quantity": 2,
+        "pets_allowed": true,
+        "cleaning_fee": 6000,
+        "activation_date": "2024-03-10",
+        "created_at": "2024-03-10T00:00:00Z",
+        "updated_at": "2024-03-10T00:00:00Z"
+      }
+    },
+    {
+      "model": "property.property",
+      "pk": "55e39f4f-94fc-4aa9-a8a9-012345678905",
+      "fields": {
+        "max_guests": 10,
+        "bathrooms_quantity": 5,
+        "pets_allowed": false,
+        "cleaning_fee": 12000,
+        "activation_date": "2024-03-10",
+        "created_at": "2024-03-10T00:00:00Z",
+        "updated_at": "2024-03-10T00:00:00Z"
+      }
+    }
+  ]
+  
