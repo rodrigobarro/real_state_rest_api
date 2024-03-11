@@ -16,6 +16,13 @@ Clone this repo and make sure you have poetry installed.
 cd real_state_rest_api
 poetry shell
 ```
+
+### Seed data:
+```bash
+cd real_state_rest_api
+python manage.py loaddata properties
+```
+
 ### Running the application
 
 ```bash
