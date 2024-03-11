@@ -1,0 +1,123 @@
+[
+    {
+      "model": "booking.booking",
+      "pk": "e6294703-2c57-47a9-ae8b-f0d1975d1ed2",
+      "fields": {
+        "booking_code": "Rd2aP3cE",
+        "advertisement": "4ec48510-2b1b-4a53-96b3-0e5b4bfc0f3c",
+        "check_in_date": "2024-03-10",
+        "check_out_date": "2024-03-13",
+        "total_price": 100,
+        "comment": "This is booking 1",
+        "guests_count": 1,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "b739fb99-c5cc-4045-b304-f476dbe0cb7d",
+      "fields": {
+        "booking_code": "L5d2xV7f",
+        "advertisement": "fe64bb35-50f7-4dc0-82d8-2256a57a3c88",
+        "check_in_date": "2024-03-11",
+        "check_out_date": "2024-03-14",
+        "total_price": 200,
+        "comment": "This is booking 2",
+        "guests_count": 2,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "9c7a5088-214f-45ad-b6c5-cc93a68f98f2",
+      "fields": {
+        "booking_code": "X7pA5q8h",
+        "advertisement": "65f7f86d-7f5d-4d05-94d7-47fc36c2e63c",
+        "check_in_date": "2024-03-12",
+        "check_out_date": "2024-03-15",
+        "total_price": 300,
+        "comment": "This is booking 3",
+        "guests_count": 3,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "f4d9f6a2-34e5-4b5c-8f5c-5744e51f4a43",
+      "fields": {
+        "booking_code": "T4hR5cK1",
+        "advertisement": "4ec48510-2b1b-4a53-96b3-0e5b4bfc0f3c",
+        "check_in_date": "2024-03-13",
+        "check_out_date": "2024-03-16",
+        "total_price": 400,
+        "comment": "This is booking 4",
+        "guests_count": 4,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "b1a285f8-230c-4b29-8b1d-4f6b3f0782b3",
+      "fields": {
+        "booking_code": "E5zT8bP2",
+        "advertisement": "fe64bb35-50f7-4dc0-82d8-2256a57a3c88",
+        "check_in_date": "2024-03-14",
+        "check_out_date": "2024-03-17",
+        "total_price": 500,
+        "comment": "This is booking 5",
+        "guests_count": 5,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "bed7eb94-9d7a-4a11-9272-01b65a6179e5",
+      "fields": {
+        "booking_code": "W9rM1xP8",
+        "advertisement": "65f7f86d-7f5d-4d05-94d7-47fc36c2e63c",
+        "check_in_date": "2024-03-15",
+        "check_out_date": "2024-03-18",
+        "total_price": 600,
+        "comment": "This is booking 6",
+        "guests_count": 6,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "2904f2ad-8be2-47bb-bdcf-29943958f3d5",
+      "fields": {
+        "booking_code": "Y2sF6nL3",
+        "advertisement": "4ec48510-2b1b-4a53-96b3-0e5b4bfc0f3c",
+        "check_in_date": "2024-03-16",
+        "check_out_date": "2024-03-19",
+        "total_price": 700,
+        "comment": "This is booking 7",
+        "guests_count": 7,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "booking.booking",
+      "pk": "2f81c2d8-7651-4f29-947e-9d53fffa2c0e",
+      "fields": {
+        "booking_code": "H2jK5wN9",
+        "advertisement": "fe64bb35-50f7-4dc0-82d8-2256a57a3c88",
+        "check_in_date": "2024-03-17",
+        "check_out_date": "2024-03-20",
+        "total_price": 800,
+        "comment": "This is booking 8",
+        "guests_count": 8,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    }
+  ]
+  
