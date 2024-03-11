@@ -21,6 +21,7 @@ poetry shell
 ```bash
 cd real_state_rest_api
 python manage.py loaddata properties
+python manage.py loaddata advertisements
 ```
 
 ### Running the application
