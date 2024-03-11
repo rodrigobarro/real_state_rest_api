@@ -1,0 +1,35 @@
+[
+    {
+      "model": "advertisement.advertisement",
+      "pk": "4ec48510-2b1b-4a53-96b3-0e5b4bfc0f3c", 
+      "fields": {
+        "property": "11e39f4f-94fc-4aa9-a8a9-012345678901", 
+        "platform_name": "AirBnb",
+        "platform_tax": 15,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "advertisement.advertisement",
+      "pk": "fe64bb35-50f7-4dc0-82d8-2256a57a3c88",
+      "fields": {
+        "property": "22e39f4f-94fc-4aa9-a8a9-012345678902", 
+        "platform_name": "Booking.com",
+        "platform_tax": 18,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    },
+    {
+      "model": "advertisement.advertisement",
+      "pk": "65f7f86d-7f5d-4d05-94d7-47fc36c2e63c", 
+      "fields": {
+        "property": "33e39f4f-94fc-4aa9-a8a9-012345678903", 
+        "platform_name": "Expedia",
+        "platform_tax": 22,
+        "created_at": "2024-03-10T08:00:00Z",
+        "updated_at": "2024-03-10T08:00:00Z"
+      }
+    }
+  ]
