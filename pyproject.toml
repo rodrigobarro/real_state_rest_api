@@ -13,7 +13,11 @@ python-dotenv = "^1.0.1"
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
 commitizen = "^3.18.0"
+black = "^24.3.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 88

@@ -64,11 +64,51 @@ tzdata = ["tzdata"]
 
 [[package]]
 category = "dev"
+description = "The uncompromising code formatter."
+name = "black"
+optional = false
+python-versions = ">=3.8"
+version = "24.3.0"
+
+[package.dependencies]
+click = ">=8.0.0"
+mypy-extensions = ">=0.4.3"
+packaging = ">=22.0"
+pathspec = ">=0.9.0"
+platformdirs = ">=2"
+
+[package.dependencies.tomli]
+python = "<3.11"
+version = ">=1.1.0"
+
+[package.dependencies.typing-extensions]
+python = "<3.11"
+version = ">=4.0.1"
+
+[package.extras]
+colorama = ["colorama (>=0.4.3)"]
+d = ["aiohttp (>=3.7.4,<3.9.0 || >3.9.0)", "aiohttp (>=3.7.4)"]
+jupyter = ["ipython (>=7.8.0)", "tokenize-rt (>=3.2.0)"]
+uvloop = ["uvloop (>=0.15.2)"]
+
+[[package]]
+category = "dev"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
 name = "charset-normalizer"
 optional = false
 python-versions = ">=3.7.0"
 version = "3.3.2"
+
+[[package]]
+category = "dev"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=3.7"
+version = "8.1.7"
+
+[package.dependencies]
+colorama = "*"
 
 [[package]]
 category = "dev"
@@ -188,11 +228,39 @@ version = "10.2.0"
 
 [[package]]
 category = "dev"
+description = "Type system extensions for programs checked with the mypy type checker."
+name = "mypy-extensions"
+optional = false
+python-versions = ">=3.5"
+version = "1.0.0"
+
+[[package]]
+category = "dev"
 description = "Core utilities for Python packages"
 name = "packaging"
 optional = false
 python-versions = ">=3.7"
 version = "24.0"
+
+[[package]]
+category = "dev"
+description = "Utility library for gitignore style pattern matching of file paths."
+name = "pathspec"
+optional = false
+python-versions = ">=3.8"
+version = "0.12.1"
+
+[[package]]
+category = "dev"
+description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
+name = "platformdirs"
+optional = false
+python-versions = ">=3.8"
+version = "4.2.0"
+
+[package.extras]
+docs = ["furo (>=2023.9.10)", "proselint (>=0.13)", "sphinx-autodoc-typehints (>=1.25.2)", "sphinx (>=7.2.6)"]
+test = ["appdirs (1.4.4)", "covdefaults (>=2.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)", "pytest (>=7.4.3)"]
 
 [[package]]
 category = "dev"
@@ -310,6 +378,15 @@ tests = ["pytest", "pytest-cov"]
 
 [[package]]
 category = "dev"
+description = "A lil' TOML parser"
+marker = "python_version < \"3.11\""
+name = "tomli"
+optional = false
+python-versions = ">=3.7"
+version = "2.0.1"
+
+[[package]]
+category = "dev"
 description = "Style preserving TOML library"
 name = "tomlkit"
 optional = false
@@ -355,7 +432,7 @@ docs = ["sphinx (>=3.5)", "sphinx (<7.2.5)", "jaraco.packaging (>=9.3)", "rst.li
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-cov", "pytest-enabler (>=2.2)", "pytest-ruff", "jaraco.itertools", "jaraco.functools", "more-itertools", "big-o", "pytest-ignore-flaky", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)"]
 
 [metadata]
-content-hash = "e9840f05e740a2a2b4fe00739d38bae83215e4e4babc37eff6a70bfe0d2fc952"
+content-hash = "6e415258400fb6e37f31c1f5a8824cac9f9ddad7788957238df866fbf34aa17f"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -365,7 +442,9 @@ asgiref = []
 atomicwrites = []
 attrs = []
 "backports.zoneinfo" = []
+black = []
 charset-normalizer = []
+click = []
 colorama = []
 commitizen = []
 decli = []
@@ -375,7 +454,10 @@ importlib-metadata = []
 jinja2 = []
 markupsafe = []
 more-itertools = []
+mypy-extensions = []
 packaging = []
+pathspec = []
+platformdirs = []
 pluggy = []
 prompt-toolkit = []
 py = []
@@ -386,6 +468,7 @@ pyyaml = []
 questionary = []
 sqlparse = []
 termcolor = []
+tomli = []
 tomlkit = []
 typing-extensions = []
 tzdata = []
