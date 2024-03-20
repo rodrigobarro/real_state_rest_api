@@ -2,7 +2,9 @@ import uuid
 from datetime import datetime
 
 class Booking:
-    def __init__(self, advertisement, check_in_date, check_out_date, total_price, comment=None, guests_count=1):
+    def __init__(self, advertisement, check_in_date, 
+                 check_out_date, total_price, comment=None, 
+                 guests_count=1):
         self.booking_id = str(uuid.uuid4())
         self.booking_code = str(uuid.uuid4())[:12]  
         self.advertisement = advertisement

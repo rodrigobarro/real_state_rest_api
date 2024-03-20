@@ -1,6 +1,6 @@
 [
     {
-      "model": "property.property",
+      "model": "booking.property",
       "pk": "11e39f4f-94fc-4aa9-a8a9-012345678901",
       "fields": {
         "max_guests": 4,
@@ -13,7 +13,7 @@
       }
     },
     {
-      "model": "property.property",
+      "model": "booking.property",
       "pk": "22e39f4f-94fc-4aa9-a8a9-012345678902",
       "fields": {
         "max_guests": 6,
@@ -26,7 +26,7 @@
       }
     },
     {
-      "model": "property.property",
+      "model": "booking.property",
       "pk": "33e39f4f-94fc-4aa9-a8a9-012345678903",
       "fields": {
         "max_guests": 8,
@@ -39,7 +39,7 @@
       }
     },
     {
-      "model": "property.property",
+      "model": "booking.property",
       "pk": "44e39f4f-94fc-4aa9-a8a9-012345678904",
       "fields": {
         "max_guests": 5,
@@ -52,7 +52,7 @@
       }
     },
     {
-      "model": "property.property",
+      "model": "booking.property",
       "pk": "55e39f4f-94fc-4aa9-a8a9-012345678905",
       "fields": {
         "max_guests": 10,
